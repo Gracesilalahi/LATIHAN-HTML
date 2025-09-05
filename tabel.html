@@ -2,11 +2,11 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Tabel Nilai Mahasiswa</title>
+    <title>Tabel Perolehan Nilai Mahasiswa</title>
     <style>
       body {
         font-family: "Segoe UI", sans-serif;
-        background: linear-gradient(120deg, #fce4ec, #e3f2fd);
+        background: linear-gradient(120deg, #ffecd2, #fcb69f);
         padding: 30px;
       }
       h1 {
@@ -15,41 +15,60 @@
         margin-bottom: 25px;
         text-shadow: 1px 1px 2px #fff;
       }
+      nav {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #2980b9;
+      }
+      nav a:hover {
+        color: #e74c3c;
+      }
       table {
-        width: 98%;
-        margin: auto;
+        width: 100%;
         border-collapse: collapse;
         border-radius: 15px;
         overflow: hidden;
         box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
       }
       thead tr {
-        background: linear-gradient(90deg, #ff6f61, #ffb347, #6dd5ed, #2193b0);
+        background: linear-gradient(
+          90deg,
+          #ff6f61,
+          #ffb347,
+          #6dd5ed,
+          #2193b0,
+          #6a82fb
+        );
       }
       thead th {
         padding: 12px;
         color: white;
         font-size: 14px;
         text-transform: uppercase;
-        border-right: 1px solid rgba(255, 255, 255, 0.3);
       }
       tbody td {
-        padding: 10px;
+        padding: 8px;
         text-align: center;
-        border-bottom: 1px solid #ddd;
+        font-size: 13px;
       }
       tbody tr:nth-child(odd) {
-        background-color: #fdfdfd;
+        background-color: #fff;
       }
       tbody tr:nth-child(even) {
-        background-color: #f3f8ff;
+        background-color: #f7f9fc;
       }
       tbody tr:hover {
         background-color: #ffeaa7;
         transition: 0.3s;
         transform: scale(1.01);
       }
-      /* Warna untuk kolom nilai */
+
+      /* Warna khusus untuk kolom nilai */
       td.tugas1 {
         background-color: #e3f2fd;
       }
@@ -72,7 +91,14 @@
     </style>
   </head>
   <body>
-    <h1>Daftar Nilai Mahasiswa</h1>
+    <nav>
+      <a href="blog.html">Blog</a> | <a href="form.html">Form</a> |
+      <a href="tabel.html">Tabel Mahasiswa</a> |
+      <a href="cv.html">CV</a>
+    </nav>
+
+    <h1>Tabel Perolehan Nilai Mahasiswa</h1>
+
     <table>
       <thead>
         <tr>
@@ -93,7 +119,7 @@
           <td>1</td>
           <td>11323008</td>
           <td>Chenith Siro Fenisia Sirait</td>
-          <td>DIII Teknologi Informasi</td>
+          <td>DIII TI</td>
           <td class="tugas1">85</td>
           <td class="tugas2">80</td>
           <td class="tugas3">90</td>
@@ -105,7 +131,7 @@
           <td>2</td>
           <td>11323026</td>
           <td>Van Christ John Hutajulu</td>
-          <td>DIII Teknologi Informasi</td>
+          <td>DIII TI</td>
           <td class="tugas1">78</td>
           <td class="tugas2">82</td>
           <td class="tugas3">85</td>
@@ -115,68 +141,140 @@
         </tr>
         <tr>
           <td>3</td>
-          <td>11423003</td>
-          <td>Samuel Rizki Sinambela</td>
-          <td>D IV TRPL</td>
-          <td class="tugas1">90</td>
-          <td class="tugas2">88</td>
+          <td>11323039</td>
+          <td>Nokatri Sitinjak</td>
+          <td>DIII TI</td>
+          <td class="tugas1">80</td>
+          <td class="tugas2">75</td>
           <td class="tugas3">85</td>
-          <td class="uts">92</td>
-          <td class="uas">94</td>
-          <td class="akhir">90</td>
+          <td class="uts">78</td>
+          <td class="uas">84</td>
+          <td class="akhir">80</td>
         </tr>
         <tr>
           <td>4</td>
-          <td>11S23002</td>
-          <td>Lamgok Hando Siahaan</td>
-          <td>S1 Informatika</td>
-          <td class="tugas1">85</td>
-          <td class="tugas2">80</td>
-          <td class="tugas3">82</td>
-          <td class="uts">88</td>
+          <td>11323042</td>
+          <td>Junita Mareska Sihombing</td>
+          <td>DIII TI</td>
+          <td class="tugas1">90</td>
+          <td class="tugas2">88</td>
+          <td class="tugas3">92</td>
+          <td class="uts">85</td>
           <td class="uas">90</td>
-          <td class="akhir">85</td>
+          <td class="akhir">89</td>
         </tr>
         <tr>
           <td>5</td>
-          <td>11S23003</td>
-          <td>Sefa Natan Situmeang</td>
-          <td>S1 Informatika</td>
-          <td class="tugas1">78</td>
-          <td class="tugas2">82</td>
-          <td class="tugas3">79</td>
-          <td class="uts">80</td>
-          <td class="uas">85</td>
-          <td class="akhir">81</td>
+          <td>11323053</td>
+          <td>Natasya Dian Elena Siahaan</td>
+          <td>DIII TI</td>
+          <td class="tugas1">85</td>
+          <td class="tugas2">78</td>
+          <td class="tugas3">80</td>
+          <td class="uts">81</td>
+          <td class="uas">84</td>
+          <td class="akhir">82</td>
         </tr>
         <tr>
           <td>6</td>
-          <td>11S23012</td>
-          <td>Joey Cristo Thruli</td>
-          <td>S1 Informatika</td>
-          <td class="tugas1">85</td>
-          <td class="tugas2">88</td>
-          <td class="tugas3">84</td>
-          <td class="uts">90</td>
+          <td>11323059</td>
+          <td>Tasya Simamora</td>
+          <td>DIII TI</td>
+          <td class="tugas1">75</td>
+          <td class="tugas2">70</td>
+          <td class="tugas3">78</td>
+          <td class="uts">76</td>
+          <td class="uas">79</td>
+          <td class="akhir">76</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>11423003</td>
+          <td>Samuel Rizki Sinambela</td>
+          <td>D IV TRPL</td>
+          <td class="tugas1">88</td>
+          <td class="tugas2">85</td>
+          <td class="tugas3">90</td>
+          <td class="uts">86</td>
           <td class="uas">92</td>
           <td class="akhir">88</td>
         </tr>
         <tr>
-          <td>7</td>
-          <td>11S23022</td>
-          <td>Aron Ivander Jeconia Hutapea</td>
+          <td>8</td>
+          <td>11423018</td>
+          <td>Eduward Gilbert Simanjuntak</td>
+          <td>D IV TRPL</td>
+          <td class="tugas1">80</td>
+          <td class="tugas2">82</td>
+          <td class="tugas3">84</td>
+          <td class="uts">83</td>
+          <td class="uas">85</td>
+          <td class="akhir">83</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>11423019</td>
+          <td>Hans Andika Manalu</td>
+          <td>D IV TRPL</td>
+          <td class="tugas1">70</td>
+          <td class="tugas2">75</td>
+          <td class="tugas3">80</td>
+          <td class="uts">77</td>
+          <td class="uas">82</td>
+          <td class="akhir">77</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>11423022</td>
+          <td>Wahyudi Gamaliel</td>
+          <td>D IV TRPL</td>
+          <td class="tugas1">85</td>
+          <td class="tugas2">88</td>
+          <td class="tugas3">82</td>
+          <td class="uts">87</td>
+          <td class="uas">90</td>
+          <td class="akhir">86</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>11S23002</td>
+          <td>Lamgok Hando Siahaan</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">88</td>
+          <td class="tugas2">82</td>
+          <td class="tugas3">90</td>
+          <td class="uts">85</td>
+          <td class="uas">91</td>
+          <td class="akhir">87</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>11S23003</td>
+          <td>Sefa Natan Situmeang</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">80</td>
+          <td class="tugas2">82</td>
+          <td class="tugas3">85</td>
+          <td class="uts">84</td>
+          <td class="uas">88</td>
+          <td class="akhir">84</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>11S23012</td>
+          <td>Joey Cristo Thruli</td>
           <td>S1 Informatika</td>
           <td class="tugas1">75</td>
           <td class="tugas2">80</td>
           <td class="tugas3">78</td>
           <td class="uts">82</td>
-          <td class="uas">84</td>
+          <td class="uas">85</td>
           <td class="akhir">80</td>
         </tr>
         <tr>
-          <td>8</td>
-          <td>11S23037</td>
-          <td>Alberton Napitupulu</td>
+          <td>14</td>
+          <td>11S23022</td>
+          <td>Aron Ivander Hutapea</td>
           <td>S1 Informatika</td>
           <td class="tugas1">82</td>
           <td class="tugas2">85</td>
@@ -186,7 +284,19 @@
           <td class="akhir">86</td>
         </tr>
         <tr>
-          <td>9</td>
+          <td>15</td>
+          <td>11S23037</td>
+          <td>Alberton Napitupulu</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">85</td>
+          <td class="tugas2">87</td>
+          <td class="tugas3">89</td>
+          <td class="uts">90</td>
+          <td class="uas">92</td>
+          <td class="akhir">88</td>
+        </tr>
+        <tr>
+          <td>16</td>
           <td>11S23045</td>
           <td>Kevin Sihaloho</td>
           <td>S1 Informatika</td>
@@ -198,18 +308,173 @@
           <td class="akhir">91</td>
         </tr>
         <tr>
-          <td>10</td>
+          <td>17</td>
           <td>11S23047</td>
           <td>Rahmat Simanjuntak</td>
           <td>S1 Informatika</td>
           <td class="tugas1">80</td>
           <td class="tugas2">82</td>
-          <td class="tugas3">78</td>
-          <td class="uts">85</td>
-          <td class="uas">88</td>
+          <td class="tugas3">85</td>
+          <td class="uts">83</td>
+          <td class="uas">86</td>
           <td class="akhir">83</td>
         </tr>
-        <!-- Tambah sampai 50 orang -->
+        <tr>
+          <td>18</td>
+          <td>11S23050</td>
+          <td>Maria Hutapea</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">84</td>
+          <td class="tugas2">86</td>
+          <td class="tugas3">88</td>
+          <td class="uts">87</td>
+          <td class="uas">90</td>
+          <td class="akhir">87</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>11S23051</td>
+          <td>Ronaldo Panjaitan</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">78</td>
+          <td class="tugas2">80</td>
+          <td class="tugas3">82</td>
+          <td class="uts">83</td>
+          <td class="uas">85</td>
+          <td class="akhir">82</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>11S23052</td>
+          <td>Sinta Br Siregar</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">85</td>
+          <td class="tugas2">87</td>
+          <td class="tugas3">89</td>
+          <td class="uts">88</td>
+          <td class="uas">90</td>
+          <td class="akhir">88</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>11S23053</td>
+          <td>Doni Rajagukguk</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">82</td>
+          <td class="tugas2">85</td>
+          <td class="tugas3">87</td>
+          <td class="uts">86</td>
+          <td class="uas">89</td>
+          <td class="akhir">86</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>11S23054</td>
+          <td>Yuliana Br Simanjuntak</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">88</td>
+          <td class="tugas2">90</td>
+          <td class="tugas3">92</td>
+          <td class="uts">89</td>
+          <td class="uas">93</td>
+          <td class="akhir">90</td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>11S23055</td>
+          <td>Rio Hutauruk</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">80</td>
+          <td class="tugas2">82</td>
+          <td class="tugas3">84</td>
+          <td class="uts">85</td>
+          <td class="uas">88</td>
+          <td class="akhir">84</td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>11S23056</td>
+          <td>Agnes Manurung</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">84</td>
+          <td class="tugas2">86</td>
+          <td class="tugas3">88</td>
+          <td class="uts">87</td>
+          <td class="uas">89</td>
+          <td class="akhir">87</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>11S23057</td>
+          <td>Jonathan Hutapea</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">78</td>
+          <td class="tugas2">80</td>
+          <td class="tugas3">83</td>
+          <td class="uts">82</td>
+          <td class="uas">85</td>
+          <td class="akhir">82</td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td>11S23058</td>
+          <td>Clara Panjaitan</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">85</td>
+          <td class="tugas2">87</td>
+          <td class="tugas3">90</td>
+          <td class="uts">89</td>
+          <td class="uas">92</td>
+          <td class="akhir">88</td>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td>11S23059</td>
+          <td>Bryan Sinaga</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">82</td>
+          <td class="tugas2">85</td>
+          <td class="tugas3">88</td>
+          <td class="uts">86</td>
+          <td class="uas">90</td>
+          <td class="akhir">86</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>11S23060</td>
+          <td>Felicia Br Simatupang</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">88</td>
+          <td class="tugas2">90</td>
+          <td class="tugas3">92</td>
+          <td class="uts">89</td>
+          <td class="uas">94</td>
+          <td class="akhir">91</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>11S23061</td>
+          <td>Michael Gultom</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">80</td>
+          <td class="tugas2">82</td>
+          <td class="tugas3">84</td>
+          <td class="uts">85</td>
+          <td class="uas">87</td>
+          <td class="akhir">84</td>
+        </tr>
+        <tr>
+          <td>30</td>
+          <td>11S23062</td>
+          <td>Patricia Sitompul</td>
+          <td>S1 Informatika</td>
+          <td class="tugas1">85</td>
+          <td class="tugas2">87</td>
+          <td class="tugas3">89</td>
+          <td class="uts">88</td>
+          <td class="uas">90</td>
+          <td class="akhir">88</td>
+        </tr>
       </tbody>
     </table>
   </body>
