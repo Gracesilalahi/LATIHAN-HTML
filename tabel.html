@@ -5,50 +5,62 @@
     <title>Tabel Perolehan Nilai Mahasiswa</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
-        background-color: #f7faff;
-        padding: 20px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(120deg, #e0f7fa, #fce4ec);
+        padding: 30px;
       }
       h1 {
         text-align: center;
         color: #2c3e50;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
+        text-shadow: 1px 1px 2px #fff;
       }
       table {
         width: 95%;
         margin: auto;
         border-collapse: collapse;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-        background-color: white;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
       }
       thead {
-        background: linear-gradient(90deg, #4caf50, #2196f3);
+        background: linear-gradient(90deg, #4a00e0, #8e2de2, #ff6fd8);
         color: white;
       }
       th,
       td {
-        padding: 8px 12px;
+        padding: 10px 14px;
         text-align: center;
-        border-bottom: 1px solid #ddd;
       }
-      tr:nth-child(even) {
-        background-color: #f2f2f2;
+      th {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
       }
-      tr:hover {
-        background-color: #ffeaa7;
+      tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      tbody tr:nth-child(odd) {
+        background-color: #ffffff;
+      }
+      tbody tr:hover {
+        background-color: #ffeb99;
+        transform: scale(1.01);
+        transition: all 0.2s ease-in-out;
       }
       nav {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
       }
       nav a {
-        margin: 0 10px;
+        margin: 0 12px;
         text-decoration: none;
         font-weight: bold;
-        color: #2980b9;
+        color: #6a11cb;
       }
       nav a:hover {
-        color: #e74c3c;
+        color: #2575fc;
+        text-decoration: underline;
       }
     </style>
   </head>
@@ -60,7 +72,7 @@
       <a href="cv.html">CV</a>
     </nav>
 
-    <h1>Tabel Perolehan Nilai Mahasiswa</h1>
+    <h1>Daftar Nilai Mahasiswa</h1>
 
     <table>
       <thead>
@@ -76,6 +88,7 @@
         </tr>
       </thead>
       <tbody>
+        <!-- Beberapa dari DIII & D IV -->
         <tr>
           <td>1</td>
           <td>11323008</td>
@@ -118,26 +131,6 @@
         </tr>
         <tr>
           <td>5</td>
-          <td>11323053</td>
-          <td>Natasya Dian Elena Siahaan</td>
-          <td>DIII Teknologi Informasi</td>
-          <td>85</td>
-          <td>78</td>
-          <td>80</td>
-          <td>81</td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>11323059</td>
-          <td>Tasya Simamora</td>
-          <td>DIII Teknologi Informasi</td>
-          <td>75</td>
-          <td>70</td>
-          <td>78</td>
-          <td>74</td>
-        </tr>
-        <tr>
-          <td>7</td>
           <td>11423003</td>
           <td>Samuel Rizki Sinambela</td>
           <td>D IV TRPL</td>
@@ -147,7 +140,7 @@
           <td>88</td>
         </tr>
         <tr>
-          <td>8</td>
+          <td>6</td>
           <td>11423018</td>
           <td>Eduward Gilbert Simanjuntak</td>
           <td>D IV TRPL</td>
@@ -157,7 +150,7 @@
           <td>82</td>
         </tr>
         <tr>
-          <td>9</td>
+          <td>7</td>
           <td>11423019</td>
           <td>Hans Andika Manalu</td>
           <td>D IV TRPL</td>
@@ -167,17 +160,7 @@
           <td>75</td>
         </tr>
         <tr>
-          <td>10</td>
-          <td>11423022</td>
-          <td>Wahyudi Gamaliel Lumbantoruan</td>
-          <td>D IV TRPL</td>
-          <td>85</td>
-          <td>88</td>
-          <td>82</td>
-          <td>85</td>
-        </tr>
-        <tr>
-          <td>11</td>
+          <td>8</td>
           <td>11423024</td>
           <td>Fernando Yosia Parhusip</td>
           <td>D IV TRPL</td>
@@ -187,7 +170,7 @@
           <td>92</td>
         </tr>
         <tr>
-          <td>12</td>
+          <td>9</td>
           <td>11423025</td>
           <td>Yos Ivan Sirait</td>
           <td>D IV TRPL</td>
@@ -197,7 +180,7 @@
           <td>81</td>
         </tr>
         <tr>
-          <td>13</td>
+          <td>10</td>
           <td>11423028</td>
           <td>Grace Advryanti Tampubolon</td>
           <td>D IV TRPL</td>
@@ -206,268 +189,9 @@
           <td>90</td>
           <td>87</td>
         </tr>
+        <!-- Tambahkan banyak Informatika -->
         <tr>
-          <td>14</td>
-          <td>11423031</td>
-          <td>Febri Sweeta Br Lumban Raja</td>
-          <td>D IV TRPL</td>
-          <td>75</td>
-          <td>78</td>
-          <td>80</td>
-          <td>78</td>
-        </tr>
-        <tr>
-          <td>15</td>
-          <td>11423045</td>
-          <td>Whisnu Abraham Luciano Saragih</td>
-          <td>D IV TRPL</td>
-          <td>82</td>
-          <td>85</td>
-          <td>88</td>
-          <td>85</td>
-        </tr>
-        <tr>
-          <td>16</td>
-          <td>11423046</td>
-          <td>Noel Alfonso Tamba</td>
-          <td>D IV TRPL</td>
-          <td>70</td>
-          <td>72</td>
-          <td>75</td>
-          <td>72</td>
-        </tr>
-        <tr>
-          <td>17</td>
-          <td>11423057</td>
-          <td>Imel Sari Sinaga</td>
-          <td>D IV TRPL</td>
-          <td>80</td>
-          <td>85</td>
-          <td>87</td>
-          <td>84</td>
-        </tr>
-        <tr>
-          <td>18</td>
-          <td>11423058</td>
-          <td>Rakhel Franiska Tampubolon</td>
-          <td>D IV TRPL</td>
-          <td>76</td>
-          <td>80</td>
-          <td>82</td>
-          <td>79</td>
-        </tr>
-        <tr>
-          <td>19</td>
-          <td>11423066</td>
-          <td>Stefani Margareth Rajagukguk</td>
-          <td>D IV TRPL</td>
-          <td>85</td>
-          <td>88</td>
-          <td>92</td>
-          <td>88</td>
-        </tr>
-        <tr>
-          <td>20</td>
-          <td>11423067</td>
-          <td>Yohana Rajagukguk</td>
-          <td>D IV TRPL</td>
-          <td>74</td>
-          <td>78</td>
-          <td>80</td>
-          <td>77</td>
-        </tr>
-        <tr>
-          <td>21</td>
-          <td>11423068</td>
-          <td>Rio Terando Karoba</td>
-          <td>D IV TRPL</td>
-          <td>80</td>
-          <td>82</td>
-          <td>84</td>
-          <td>82</td>
-        </tr>
-        <tr>
-          <td>22</td>
-          <td>11423069</td>
-          <td>Dison Wanimbo</td>
-          <td>D IV TRPL</td>
-          <td>76</td>
-          <td>74</td>
-          <td>78</td>
-          <td>76</td>
-        </tr>
-        <tr>
-          <td>23</td>
-          <td>11423070</td>
-          <td>Nadion Weya</td>
-          <td>D IV TRPL</td>
-          <td>88</td>
-          <td>90</td>
-          <td>85</td>
-          <td>88</td>
-        </tr>
-        <tr>
-          <td>24</td>
-          <td>11423071</td>
-          <td>Endison Yikwa</td>
-          <td>D IV TRPL</td>
-          <td>70</td>
-          <td>75</td>
-          <td>80</td>
-          <td>75</td>
-        </tr>
-        <tr>
-          <td>25</td>
-          <td>11423072</td>
-          <td>Abraham Melly Weya</td>
-          <td>D IV TRPL</td>
-          <td>78</td>
-          <td>82</td>
-          <td>85</td>
-          <td>82</td>
-        </tr>
-        <tr>
-          <td>26</td>
-          <td>11423073</td>
-          <td>Boas Wenda</td>
-          <td>D IV TRPL</td>
-          <td>80</td>
-          <td>84</td>
-          <td>86</td>
-          <td>83</td>
-        </tr>
-        <tr>
-          <td>27</td>
-          <td>11423074</td>
-          <td>Ronaldi Soleman Bapaimu Ndiwaen</td>
-          <td>D IV TRPL</td>
-          <td>75</td>
-          <td>78</td>
-          <td>82</td>
-          <td>78</td>
-        </tr>
-        <tr>
-          <td>28</td>
-          <td>11423075</td>
-          <td>Kimison Wanena</td>
-          <td>D IV TRPL</td>
-          <td>82</td>
-          <td>85</td>
-          <td>88</td>
-          <td>85</td>
-        </tr>
-        <tr>
-          <td>29</td>
-          <td>11423076</td>
-          <td>Manu Yikwa</td>
-          <td>D IV TRPL</td>
-          <td>74</td>
-          <td>77</td>
-          <td>80</td>
-          <td>77</td>
-        </tr>
-        <tr>
-          <td>30</td>
-          <td>11423078</td>
-          <td>Temerina Weya</td>
-          <td>D IV TRPL</td>
-          <td>80</td>
-          <td>82</td>
-          <td>85</td>
-          <td>82</td>
-        </tr>
-        <tr>
-          <td>31</td>
-          <td>11423080</td>
-          <td>Emison Yigibalom</td>
-          <td>D IV TRPL</td>
-          <td>86</td>
-          <td>88</td>
-          <td>90</td>
-          <td>88</td>
-        </tr>
-        <tr>
-          <td>32</td>
-          <td>11423081</td>
-          <td>Gulton Gurik</td>
-          <td>D IV TRPL</td>
-          <td>70</td>
-          <td>72</td>
-          <td>75</td>
-          <td>72</td>
-        </tr>
-        <tr>
-          <td>33</td>
-          <td>11423082</td>
-          <td>Israel Febrian Wonda</td>
-          <td>D IV TRPL</td>
-          <td>82</td>
-          <td>85</td>
-          <td>88</td>
-          <td>85</td>
-        </tr>
-        <tr>
-          <td>34</td>
-          <td>11423083</td>
-          <td>Jeck Rohit Wanimbo</td>
-          <td>D IV TRPL</td>
-          <td>76</td>
-          <td>80</td>
-          <td>82</td>
-          <td>79</td>
-        </tr>
-        <tr>
-          <td>35</td>
-          <td>11423084</td>
-          <td>Ricky Pagawak</td>
-          <td>D IV TRPL</td>
-          <td>88</td>
-          <td>90</td>
-          <td>92</td>
-          <td>90</td>
-        </tr>
-        <tr>
-          <td>36</td>
-          <td>11423085</td>
-          <td>Yolinde Genongga</td>
-          <td>D IV TRPL</td>
-          <td>72</td>
-          <td>75</td>
-          <td>78</td>
-          <td>75</td>
-        </tr>
-        <tr>
-          <td>37</td>
-          <td>11423086</td>
-          <td>Yosua Kogoya</td>
-          <td>D IV TRPL</td>
-          <td>80</td>
-          <td>82</td>
-          <td>85</td>
-          <td>82</td>
-        </tr>
-        <tr>
-          <td>38</td>
-          <td>11423087</td>
-          <td>Ani Weya</td>
-          <td>D IV TRPL</td>
-          <td>74</td>
-          <td>78</td>
-          <td>80</td>
-          <td>77</td>
-        </tr>
-        <tr>
-          <td>39</td>
-          <td>11423088</td>
-          <td>Temince Gurik</td>
-          <td>D IV TRPL</td>
-          <td>82</td>
-          <td>85</td>
-          <td>88</td>
-          <td>85</td>
-        </tr>
-        <tr>
-          <td>40</td>
+          <td>11</td>
           <td>11S23002</td>
           <td>Lamgok Hando Siahaan</td>
           <td>S1 Informatika</td>
@@ -475,6 +199,396 @@
           <td>88</td>
           <td>92</td>
           <td>90</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>11S23003</td>
+          <td>Sefa Natan Situmeang</td>
+          <td>S1 Informatika</td>
+          <td>85</td>
+          <td>80</td>
+          <td>88</td>
+          <td>84</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>11S23012</td>
+          <td>Joey Cristo Thruli</td>
+          <td>S1 Informatika</td>
+          <td>78</td>
+          <td>75</td>
+          <td>82</td>
+          <td>78</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>11S23022</td>
+          <td>Aron Ivander Jeconia Hutapea</td>
+          <td>S1 Informatika</td>
+          <td>82</td>
+          <td>85</td>
+          <td>80</td>
+          <td>82</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>11S23037</td>
+          <td>Alberton Napitupulu</td>
+          <td>S1 Informatika</td>
+          <td>75</td>
+          <td>78</td>
+          <td>80</td>
+          <td>78</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>11S23045</td>
+          <td>Kevin Sihaloho</td>
+          <td>S1 Informatika</td>
+          <td>88</td>
+          <td>90</td>
+          <td>85</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>11S23047</td>
+          <td>Rahmat Simanjuntak</td>
+          <td>S1 Informatika</td>
+          <td>80</td>
+          <td>82</td>
+          <td>78</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>11S23048</td>
+          <td>Melly Hutapea</td>
+          <td>S1 Informatika</td>
+          <td>70</td>
+          <td>75</td>
+          <td>78</td>
+          <td>74</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>11S23052</td>
+          <td>Sonia Br Samosir</td>
+          <td>S1 Informatika</td>
+          <td>85</td>
+          <td>88</td>
+          <td>90</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>11S23055</td>
+          <td>Anggi Pane</td>
+          <td>S1 Informatika</td>
+          <td>80</td>
+          <td>78</td>
+          <td>82</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>11S23060</td>
+          <td>Rio Sitanggang</td>
+          <td>S1 Informatika</td>
+          <td>76</td>
+          <td>80</td>
+          <td>85</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>11S23061</td>
+          <td>Silvia Lumban Gaol</td>
+          <td>S1 Informatika</td>
+          <td>82</td>
+          <td>85</td>
+          <td>88</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>11S23063</td>
+          <td>Daniel Sihotang</td>
+          <td>S1 Informatika</td>
+          <td>90</td>
+          <td>92</td>
+          <td>95</td>
+          <td>92</td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>11S23064</td>
+          <td>Ruth Silaban</td>
+          <td>S1 Informatika</td>
+          <td>74</td>
+          <td>78</td>
+          <td>80</td>
+          <td>77</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>11S23065</td>
+          <td>Leonardo Manalu</td>
+          <td>S1 Informatika</td>
+          <td>85</td>
+          <td>80</td>
+          <td>88</td>
+          <td>84</td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td>11S23067</td>
+          <td>Angel Hutabarat</td>
+          <td>S1 Informatika</td>
+          <td>78</td>
+          <td>82</td>
+          <td>80</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td>11S23070</td>
+          <td>Elisa Nababan</td>
+          <td>S1 Informatika</td>
+          <td>80</td>
+          <td>85</td>
+          <td>87</td>
+          <td>84</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>11S23072</td>
+          <td>Jonathan Pardede</td>
+          <td>S1 Informatika</td>
+          <td>75</td>
+          <td>78</td>
+          <td>80</td>
+          <td>78</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>11S23074</td>
+          <td>Ria Sihombing</td>
+          <td>S1 Informatika</td>
+          <td>88</td>
+          <td>90</td>
+          <td>85</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>30</td>
+          <td>11S23075</td>
+          <td>Felix Sitorus</td>
+          <td>S1 Informatika</td>
+          <td>80</td>
+          <td>82</td>
+          <td>84</td>
+          <td>82</td>
+        </tr>
+        <tr>
+          <td>31</td>
+          <td>11S23078</td>
+          <td>Clara Situmorang</td>
+          <td>S1 Informatika</td>
+          <td>86</td>
+          <td>88</td>
+          <td>90</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>32</td>
+          <td>11S23080</td>
+          <td>Bayu Simatupang</td>
+          <td>S1 Informatika</td>
+          <td>72</td>
+          <td>75</td>
+          <td>78</td>
+          <td>75</td>
+        </tr>
+        <tr>
+          <td>33</td>
+          <td>11S23082</td>
+          <td>Selvi Br Sagala</td>
+          <td>S1 Informatika</td>
+          <td>80</td>
+          <td>82</td>
+          <td>85</td>
+          <td>82</td>
+        </tr>
+        <tr>
+          <td>34</td>
+          <td>11S23084</td>
+          <td>Samuel Tobing</td>
+          <td>S1 Informatika</td>
+          <td>74</td>
+          <td>78</td>
+          <td>82</td>
+          <td>78</td>
+        </tr>
+        <tr>
+          <td>35</td>
+          <td>11S23085</td>
+          <td>Dian Naibaho</td>
+          <td>S1 Informatika</td>
+          <td>85</td>
+          <td>88</td>
+          <td>92</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>36</td>
+          <td>11S23086</td>
+          <td>Galih Purba</td>
+          <td>S1 Informatika</td>
+          <td>78</td>
+          <td>80</td>
+          <td>82</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>37</td>
+          <td>11S23087</td>
+          <td>Putri Manik</td>
+          <td>S1 Informatika</td>
+          <td>82</td>
+          <td>85</td>
+          <td>87</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>38</td>
+          <td>11S23089</td>
+          <td>Rudi Simbolon</td>
+          <td>S1 Informatika</td>
+          <td>76</td>
+          <td>80</td>
+          <td>82</td>
+          <td>79</td>
+        </tr>
+        <tr>
+          <td>39</td>
+          <td>11S23091</td>
+          <td>Jessica Sihite</td>
+          <td>S1 Informatika</td>
+          <td>90</td>
+          <td>92</td>
+          <td>95</td>
+          <td>92</td>
+        </tr>
+        <tr>
+          <td>40</td>
+          <td>11S23092</td>
+          <td>Albertus Pardosi</td>
+          <td>S1 Informatika</td>
+          <td>78</td>
+          <td>80</td>
+          <td>82</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>41</td>
+          <td>11S23094</td>
+          <td>Marcellina Samosir</td>
+          <td>S1 Informatika</td>
+          <td>85</td>
+          <td>88</td>
+          <td>90</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>42</td>
+          <td>11S23095</td>
+          <td>Yohanes Panjaitan</td>
+          <td>S1 Informatika</td>
+          <td>74</td>
+          <td>78</td>
+          <td>80</td>
+          <td>77</td>
+        </tr>
+        <tr>
+          <td>43</td>
+          <td>11S23096</td>
+          <td>Intan Br Hutagalung</td>
+          <td>S1 Informatika</td>
+          <td>82</td>
+          <td>85</td>
+          <td>88</td>
+          <td>85</td>
+        </tr>
+        <tr>
+          <td>44</td>
+          <td>11S23098</td>
+          <td>Fahri Gultom</td>
+          <td>S1 Informatika</td>
+          <td>80</td>
+          <td>82</td>
+          <td>84</td>
+          <td>82</td>
+        </tr>
+        <tr>
+          <td>45</td>
+          <td>11S23100</td>
+          <td>Rika Sitohang</td>
+          <td>S1 Informatika</td>
+          <td>76</td>
+          <td>80</td>
+          <td>82</td>
+          <td>79</td>
+        </tr>
+        <tr>
+          <td>46</td>
+          <td>11S23102</td>
+          <td>Moses Hutasoit</td>
+          <td>S1 Informatika</td>
+          <td>88</td>
+          <td>90</td>
+          <td>92</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td>47</td>
+          <td>11S23103</td>
+          <td>Sandy Pardede</td>
+          <td>S1 Informatika</td>
+          <td>80</td>
+          <td>82</td>
+          <td>84</td>
+          <td>82</td>
+        </tr>
+        <tr>
+          <td>48</td>
+          <td>11S23104</td>
+          <td>Jovita Br Silitonga</td>
+          <td>S1 Informatika</td>
+          <td>85</td>
+          <td>88</td>
+          <td>90</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>49</td>
+          <td>11S23106</td>
+          <td>Michael Sinaga</td>
+          <td>S1 Informatika</td>
+          <td>78</td>
+          <td>82</td>
+          <td>85</td>
+          <td>82</td>
+        </tr>
+        <tr>
+          <td>50</td>
+          <td>11S23107</td>
+          <td>Lidya Simanjuntak</td>
+          <td>S1 Informatika</td>
+          <td>90</td>
+          <td>92</td>
+          <td>95</td>
+          <td>92</td>
         </tr>
       </tbody>
     </table>
