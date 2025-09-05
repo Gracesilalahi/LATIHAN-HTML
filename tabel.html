@@ -2,37 +2,37 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Tabel Perolehan Nilai</title>
+    <title>Daftar Mahasiswa</title>
     <style>
       body {
         font-family: Arial, sans-serif;
-        background-color: #f2f6fc;
+        background-color: #f7faff;
         padding: 20px;
       }
       h1 {
         text-align: center;
         color: #2c3e50;
+        margin-bottom: 20px;
       }
       table {
-        width: 90%;
-        margin: 20px auto;
+        width: 95%;
+        margin: auto;
         border-collapse: collapse;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        background-color: #fff;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        background-color: white;
       }
-      th {
-        background-color: #4caf50;
+      thead {
+        background: linear-gradient(90deg, #4caf50, #2196f3);
         color: white;
-        padding: 12px;
-        text-align: center;
       }
+      th,
       td {
-        padding: 10px;
-        text-align: center;
+        padding: 8px 12px;
+        text-align: left;
         border-bottom: 1px solid #ddd;
       }
       tr:nth-child(even) {
-        background-color: #f9f9f9;
+        background-color: #f2f2f2;
       }
       tr:hover {
         background-color: #ffeaa7;
@@ -44,8 +44,8 @@
       nav a {
         margin: 0 10px;
         text-decoration: none;
-        color: #2980b9;
         font-weight: bold;
+        color: #2980b9;
       }
       nav a:hover {
         color: #e74c3c;
@@ -56,45 +56,53 @@
     <nav>
       <a href="blog.html">Blog</a> |
       <a href="detail-blog.html">Detail Blog</a> |
-      <a href="form.html">Form</a> | <a href="tabel.html">Tabel Nilai</a> |
+      <a href="form.html">Form</a> | <a href="tabel.html">Tabel Mahasiswa</a> |
       <a href="cv.html">CV</a>
     </nav>
 
-    <h1>Tabel Perolehan Nilai</h1>
+    <h1>Daftar Mahasiswa</h1>
+
     <table>
-      <tr>
-        <th>No</th>
-        <th>NIM</th>
-        <th>Nama</th>
-        <th>Program Studi</th>
-        <th>Tugas 1</th>
-        <th>Tugas 2</th>
-        <th>UTS</th>
-        <th>UAS</th>
-        <th>Nilai Akhir</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>12345</td>
-        <td>Andi</td>
-        <td>Informatika</td>
-        <td>80</td>
-        <td>85</td>
-        <td>75</td>
-        <td>90</td>
-        <td>83</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>67890</td>
-        <td>Budi</td>
-        <td>Sistem Informasi</td>
-        <td>70</td>
-        <td>75</td>
-        <td>80</td>
-        <td>85</td>
-        <td>78</td>
-      </tr>
+      <thead>
+        <tr>
+          <th>NIM</th>
+          <th>Nama</th>
+          <th>Program Studi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>11323008</td>
+          <td>Chenith Siro Fenisia Sirait</td>
+          <td>DIII Teknologi Informasi</td>
+        </tr>
+        <tr>
+          <td>11323026</td>
+          <td>Van Christ John Hutajulu</td>
+          <td>DIII Teknologi Informasi</td>
+        </tr>
+        <tr>
+          <td>11323039</td>
+          <td>Nokatri Sitinjak</td>
+          <td>DIII Teknologi Informasi</td>
+        </tr>
+        <tr>
+          <td>11323042</td>
+          <td>Junita mareska sihombing</td>
+          <td>DIII Teknologi Informasi</td>
+        </tr>
+        <tr>
+          <td>11323053</td>
+          <td>Natasya Dian Elena Siahaan</td>
+          <td>DIII Teknologi Informasi</td>
+        </tr>
+        <!-- sisanya isi terus sesuai daftar panjang kamu -->
+        <tr>
+          <td>31S23033</td>
+          <td>Revalina Manurung</td>
+          <td>S1 Teknik Bioproses</td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
