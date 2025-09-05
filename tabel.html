@@ -6,7 +6,7 @@
     <style>
       body {
         font-family: "Segoe UI", sans-serif;
-        background: linear-gradient(135deg, #fdfbfb, #ebedee);
+        background: linear-gradient(135deg, #f8f9fa, #e0eafc);
         padding: 30px;
       }
       h1 {
@@ -14,7 +14,7 @@
         margin-bottom: 25px;
         color: #2c3e50;
         font-size: 28px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
       }
       nav {
         text-align: center;
@@ -35,7 +35,7 @@
       table {
         width: 100%;
         border-collapse: collapse;
-        font-size: 12px;
+        font-size: 11px;
         border-radius: 12px;
         overflow: hidden;
         box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
@@ -49,10 +49,8 @@
       }
       thead th {
         color: #fff;
-        font-size: 12px;
-        padding: 8px;
-        text-transform: uppercase;
-        letter-spacing: 0.5px;
+        font-size: 11px;
+        padding: 6px;
       }
       tbody tr:nth-child(even) {
         background: #f9f9f9;
@@ -66,9 +64,12 @@
         background: linear-gradient(135deg, #dfe9f3, #ffffff);
       }
 
-      /* Gradient blok */
+      /* Gradient warna header blok */
       .id {
         background: linear-gradient(135deg, #34495e, #2c3e50);
+      }
+      .komponen {
+        background: linear-gradient(135deg, #26a69a, #00796b);
       }
       .kuis {
         background: linear-gradient(135deg, #42a5f5, #1e88e5);
@@ -84,9 +85,6 @@
       }
       .uts {
         background: linear-gradient(135deg, #9575cd, #512da8);
-      }
-      .akhir {
-        background: linear-gradient(135deg, #26a69a, #00796b);
       }
     </style>
   </head>
@@ -107,13 +105,20 @@
           <th rowspan="2" class="id">Nama</th>
           <th rowspan="2" class="id">Program Studi</th>
           <th rowspan="2" class="id">Kelas</th>
+          <th rowspan="2" class="komponen">
+            Bentuk Komponen<br />Bobot / Nilai Akhir
+          </th>
 
+          <!-- Kuis -->
           <th colspan="3" class="kuis">Kuis</th>
+          <!-- Proyek -->
           <th colspan="4" class="proyek">Proyek</th>
+          <!-- Tugas -->
           <th colspan="4" class="tugas">Tugas</th>
+          <!-- UAS -->
           <th colspan="3" class="uas">UAS</th>
+          <!-- UTS -->
           <th colspan="4" class="uts">UTS</th>
-          <th rowspan="2" class="akhir">Nilai Akhir</th>
         </tr>
         <tr>
           <!-- Kuis -->
@@ -148,6 +153,7 @@
           <td>David Lodewick Simbolon</td>
           <td>S1 Informatika</td>
           <td>IF-1</td>
+          <td>25</td>
           <td>75</td>
           <td>80</td>
           <td>155</td>
@@ -166,7 +172,6 @@
           <td>80</td>
           <td>82</td>
           <td>88</td>
-          <td><b>86</b></td>
         </tr>
         <tr>
           <td>2</td>
@@ -174,6 +179,7 @@
           <td>Edwin Christoffel</td>
           <td>S1 Informatika</td>
           <td>IF-1</td>
+          <td>25</td>
           <td>70</td>
           <td>75</td>
           <td>145</td>
@@ -192,19 +198,17 @@
           <td>80</td>
           <td>81</td>
           <td>79</td>
-          <td><b>81</b></td>
         </tr>
-        <!-- Tambahkan data mahasiswa lain -->
+        <!-- Tambahkan mahasiswa lain sampai 30 orang -->
       </tbody>
       <tfoot>
         <tr>
-          <td colspan="5"><b>Rata-rata</b></td>
+          <td colspan="6"><b>Rata-rata</b></td>
           <td colspan="3">--</td>
           <td colspan="4">--</td>
           <td colspan="4">--</td>
           <td colspan="3">--</td>
           <td colspan="4">--</td>
-          <td><b>--</b></td>
         </tr>
       </tfoot>
     </table>
